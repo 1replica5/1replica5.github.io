@@ -1,1 +1,144 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="flex-main">
+      <div class="sidebar">
+        <div class="person">
+          <div class="person_avatar">
+            <img src="./img/img1.jpg" class="photo" alt="" />
+          </div>
+          <div class="person_name">Антон Вольский</div>
+          <div class="person_profession">фронтенд-разработчик</div>
+        </div>
+        <div class="sociallinks">
+          <a
+            class="social_whatsapp"
+            title="WhatsApp"
+            href="http://web.whatsapp.com/+79153032433"
+            ><img src="./img/whatsapp.svg" class="social-networks-links__icon"
+          /></a>
+          <a
+            class="social_telegram"
+            title="Telegram"
+            href="http://t.me/replica15"
+            ><img src="./img/telegram.svg" class="social-networks-links__icon"
+          /></a>
+          <a
+            class="social_instagram"
+            title="Instagram"
+            href="http://instagram.com/1replica5/"
+            ><img src="./img/instagram.svg" class="social-networks-links__icon"
+          /></a>
+        </div>
+        <ul class="menucontent">
+          <lo class="menu_item">
+            <a class="menu_item_link" href="#about_me">Обо мне</a>
+          </lo>
+          <lo class="menu_item">
+            <a class="menu_item_link" href="#contacts_me">Контакты</a>
+          </lo>
+          <lo class="menu_item">
+            <a class="menu_item_link" href="#expereince_me">Опыт работы</a>
+          </lo>
+          <lo class="menu_item">
+            <a class="menu_item_link" href="#education_me">Образование</a>
+          </lo>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="about">
+          <h2 class="header_about_header" id="about_me">Обо мне</h2>
+          <div class="about_text">
+            Здравствуйте, меня зовут Антон Вольский. Мне 37 лет. Люблю ходить в
+            свободное время в тренажерный зал, увлекаюсь автомобилями и
+            мобильными гаджетами.
+          </div>
+          <h2 class="contacts_header" id="contacts_me">Контакты</h2>
+          <div class="contacts_info">
+            <div class="contacts_flex">
+              <span class="info_item">Телефон: </span
+              ><a href="tel:+79260371166" class="contact">+7 915 303-24-33</a>
+            </div>
+            <div class="contacts_flex">
+              <span class="info_item">Email: </span
+              ><a href="mailto:antonvolsky@gmail.com" class="contact"
+                >antonvolsky@gmail.com</a
+              >
+            </div>
+            <div class="contacts_flex">
+              <span class="info_item">Место жительства: </span
+              ><a
+                href="https://yandex.ru/maps/?bookmarks%5Bpid%5D=home&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D37.503028%252C55.691682&ll=37.385439%2C55.584227&z=9.97"
+                class="contact"
+                >Москва, Россия</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="expereince">
+          <h2 class="header_expereince_header" id="expereince_me">
+            Опыт работы
+          </h2>
+          <div class="work">
+            <p class="work_org">ФГУП «Росморпорт»</p>
+            <p class="work_position">
+              главный специалист | октябрь 2015 - август 2023
+            </p>
+            <p class="work_text">
+              Учет государственного имущества, регистрация прав Российской
+              Федерации и прав хозяйственного ведения на объекты имущества,
+              списание федерального недвижимого имущества, внесение изменений в
+              сведения Единого государственного реестра недвижимости об объектах
+              недвижимого имущества, организация и координация деятельности
+              филиалов ФГУП «Росморпорт», представленных в субъектах Российской
+              Федерации, ведение делового письма и взаимодействие с федеральными
+              органами государственной власти в части, касающейся
+              государственного имущества, подготовка корпоративных нормативных
+              актов, электронный документооборот, командировки в субъекты
+              Российской Федерации.
+            </p>
+            <p class="work_org">ООО «Техносерв»</p>
+            <p class="work_position">
+              ведущий специалист | январь 2014 - январь 2015
+            </p>
+            <p class="work_text">
+              Организация работы по подготовке коммерческих проектов, их
+              сопровождение, поддержка и контроль на всех этапах реализации,
+              проведение переговоров с партнерами и клиентами компании,
+              командировки в субъекты Российской Федерации, ведение деловой
+              переписки с органами государственной власти, работа в
+              корпоративных системах SAP и CRM.
+            </p>
+            <p class="work_org">Вооруженные силы Российской Федерации</p>
+            <p class="work_position">
+              военнослужащий | август 2003 - декабрь 2013
+            </p>
+            <p class="work_text">
+              Государственная служба, решение оперативных задач, организация
+              ведения секретного делопроизводства с органами государственной
+              власти.
+            </p>
+          </div>
+        </div>
+        <div class="education">
+          <h2 class="header_education_header" id="education_me">Образование</h2>
+          <div class="study">
+            <p class="study_status">бакалавр | март 2017</p>
+            <p class="study_text">
+              Окончил Московский государственный юридический университет имени
+              О.Е. Кутафина по программе бакалавриата по направлению подготовки
+              40.03.01 юриспруденция (государственно-правовой профиль).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
