@@ -1,1 +1,147 @@
+body {
+  background-color: rgb(238, 243, 250);
+  max-width: 1024px;
+  min-width: 320px;
+  padding: auto;
+  margin: auto;
+}
+.flex-main {
+  /*max-width: 1024px;*/
+  /*min-width: 320px;*/
+  overflow-x: hidden;
+  padding: 20px;
+  border: 20px;
+  display: flex;
+  justify-content: space-between; /*расположение флексов относительно главной оси*/
+  /*align-items: center;*/ /*расположение флексов относительно поперечной оси*/
+  /*flex-wrap: wrap; /*переезд флекса при сужении*/
+  /*flex-direction: column;*/ /*меняем основную ось флексов*/
+}
 
+.sidebar {
+  background-color: #5655da;
+  display: flex;
+  flex-direction: column;
+
+  /*padding: 40px;*/
+
+  /*align-self: center;*/ /*команда для флекс потомка*/
+  /*flex: flex-grow, flex-shrink, flex-basic (работает только с главной осью);*/
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: ;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+}
+.photo {
+  border-radius: 50%;
+  position: relative;
+  object-fit: cover;
+  height: 170px;
+  width: 170px;
+  padding: 10px;
+  margin: auto;
+}
+.sociallinks {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 36px;
+}
+
+.menucontent {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 35px;
+  /*justify-content: space-between;*/
+}
+
+.menu_item {
+  padding: 10px;
+  text-transform: uppercase;
+}
+.menu_item_link {
+  color: #ffffff;
+  /*text-decoration: none;*/
+}
+.content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+h2 {
+  color: #5655da;
+  margin-bottom: 15px;
+}
+
+.about_text {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.contacts_flex {
+  padding-top: 10px;
+}
+.info_item {
+  font-weight: bolder;
+  opacity: 0.6;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  padding-top: 150px;
+  width: ;
+}
+
+.expereince {
+  padding-top: 30px;
+}
+
+.education {
+  padding-top: 30px;
+  background-color: ;
+  width: ;
+}
+
+.work_org {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.work_position {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+.work_text {
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.study_status {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.study_text {
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
